@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/backgroundImage.png);
+    background-repeat: repeat;
+}
+header{
+    text-align: center;
+    padding: 1% 2%;
+    border-radius: 0.3rem;
+    background: #54bdaf;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(236, 235, 232);
+}
+nav #nav-icon{
+    width: 50px;
+    height: 40px;
+    padding: 20%;
+    border-radius: 0.2rem;
+    background-color: rgb(241, 248, 246);
+}
+ul #contact, ul #portfolio, ul #about{
+    list-style-type: none;
+    float: left;
+    padding: 5px;
+}
+main h2{
+    font-weight: bolder;
+    font-size: 2.7rem;
+    color: #54bdaf;
+}
+footer{
+    width: 100%;
+    background: #727070e5;
+    position: sticky;
+    bottom: 0;
+    font-family: 'Grandstander', cursive;
+    font-size: 1rem;
+}
+button a{
+    color: #54bdaf;
+}
+.btn, .btn-group{
+    width: 55px;
+    background-color: rgb(241, 248, 246);
+    padding: 0;
+    border: 0.3px solid rgb(207, 200, 200);
+    border-radius: 0.2rem;
+}
+.dropdown-menu{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    min-width: 7rem;
+}
+.paragraph{
+    line-height: 180%;
+}
+#headline{
+    padding: 8px 8px 8px 18px;
+    width: 100%;
+    background-color: rgb(241, 248, 246);
+}
+#nav1{
+    margin-right: 3%;
+    margin-top: 0.8%;
+}
+#dditem1,#dditem2,#dditem3 {
+    padding: 6%;
+} 
+#dditem1 a,#dditem2 a, #dditem3 a{
+    text-decoration: none;
+    color: black;
+}
+#dditem3 a{
+    font-weight: bolder;
+}
+#dditem1 a:hover,#dditem2 a:hover,#dditem3 a:hover{
+    background-color: rgb(245, 208, 195);
+}
+#dditem1 a:active,#dditem2 a:active,#dditem3 a:active, .dropdown-item:active{
+    background-color: rgb(236, 166, 140);
+}
+#nav2{
+    font-family: sans-serif;
+    visibility: hidden;
+    position: absolute;
+    top: 20px;
+    font-size: 1.3rem;
+}
+#contact a, #portfolio a, #about a{
+    text-decoration: none;
+    border-radius: 2rem;
+    color: rgba(116, 109, 109, 0.788);
+    padding: 10px;
+}
+#contact a:hover, #portfolio a:hover, #about a:hover{
+    background-color: rosybrown;
+    color: rgb(63, 72, 80);
+}
+#wrap{
+    padding:0;
+    height:780px;
+}
+#wrap main{
+    font-family: sans-serif;
+    background: white;
+    width: 91%;
+    padding: 30px;
+    margin: 65px 15px 30px 20px ;
+}
+#hr-main{
+    background-color: rgb(238, 234, 234);
+}
+#mypic img{
+    width: 185px;
+    float: left;
+    margin-right:20px;
+    margin-bottom: 8px;
+}
+#firstP{
+    font-size:1rem;
+    width: 100%;
+}
+#secondP {
+    width: 90%;
+    margin-top: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-indent: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#person{
+    width: 90%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    margin: 0 9px;
+    text-align: center;
+}
+#hr-footer{
+    width:100%;
+    padding: 4px 0;
+    background-color: #4ba397;
+    margin: 0;
+}
+#email, #github, #toTop{
+    background: #FFF0F5;
+    border-radius: 0.5rem;
+    color: rgb(58, 153, 137);
+}
+#copyright-section div{
+    width: 100%;
+    background-color: #727070e5;
+    text-align: center;
+    padding: 3px 0;
+    height: 22px;
+    font-family: 'Grandstander', cursive;
+    font-size: 10px;
+    color: #979393;
+}
+
+/* media query break point set to tablet screen */
+@media screen and (min-width:768px) and (max-width: 992px){
+    header{
+        font-size: 1.8rem;
+        padding: 1% 2%;
+    }
+    footer{
+        position: relative;
+        height: 0px;
+    }
+    footer button{
+        visibility: hidden;
+    }
+    #wrap main{
+        width: 60%;
+        margin-left: 30px;
+    }
+    #copyright-section div{
+        height: 70px;
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+}
+    
+
+/* media query break point set to desktop screen */
+@media screen and (min-width:992px){
+    header{
+        font-size: 2rem;
+        padding: 0.5% 1%;
+    }
+    footer{
+        height: 0px;
+    }
+    footer button{
+        visibility: hidden;
+    }
+    ul #about {
+        font-weight: bolder;
+    }
+    #nav1{
+        visibility: hidden;
+    }
+    #nav2{
+        visibility: visible;
+        right: 2%;
+    }
+    #wrap main{
+        width: 60%;
+    }
+    #copyright-section div{
+        height: 70px;
+        padding-top: 20px;
+        font-size: 1.3rem;
+    }
+}

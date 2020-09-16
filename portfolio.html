@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Dancing+Script&family=Grandstander:wght@500&family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!-- Head section  -->
+    <div class='row ml-0 justify-content-between' id="headline">
+        <header class="col- ml-0">
+            SONGHEE YIM
+        </header>
+
+        <!-- Head_nav1: MOBILE / TABLET SCREEN navigation section -->
+        <nav  class='col-' id="nav1">
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg id="nav-icon">
+                        <line fill='none' x1='0' y1='2' x2='30' y2='2' style="stroke: rgb(144, 155, 151); stroke-width: 2; stroke-linecap: round;"></line>
+                        <line fill='none' x1='0' y1='10' x2='30' y2='10' style='stroke:  rgb(109, 187, 180); stroke-width: 2; stroke-linecap: round;'></line>
+                        <line fill='none' x1='0' y1='18' x2='30' y2='18' style="stroke: rgb(37, 143, 107); stroke-width: 2; stroke-linecap: round;"></line>
+                    </svg>
+                </button>
+                <!-- Nav1 dropdown menu section -->
+                <div class="dropdown-menu dropdown-menu-right">
+                    <button class="dropdown-item" id="dditem1" type="button"><a href="contact.html">Contact</a></button>
+                    <button class="dropdown-item" id="dditem2" type="button"><a href="portfolio.html">Portfolio</a></button>
+                    <button class="dropdown-item" id="dditem3" type="button"><a href="index.html">About</a></button>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Head_nav2: DESKTOP SCREEN navigation section -->
+        <nav id="nav2">
+            <ul>
+                <li id="contact"><a href="contact.html">Contact</a></li>
+                <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                <li id="about"><a href="index.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+<!-- Main paragraph section -->
+    <section id="wrap">
+        <main id="mainContainer">
+            <h2>Portfolio</h2>
+            <hr id="hr-main">
+            <div id="portfolioImages"">
+                <div class="row ml-0 mr-0 justify-content-between">
+                    <img class="col-" id="img1" src="./assets/images/1img.jpg" alt="#">
+                    <img class="col-" id="img2" src="./assets/images/2img.jpg" alt="#">
+                </div>
+                <div class="row ml-0 mr-0 justify-content-between">    
+                    <img class="col-" id="img3" src="./assets/images/3img.jpg" alt="#">
+                    <img class="col-" id="img4" src="./assets/images/4img.jpg" alt="#">
+                </div>
+                <div class="row ml-0 mr-0 justify-content-between">
+                    <img class="col-" id="img5" src="./assets/images/5img.jpg" alt="#">
+                </div>
+            </div>
+            
+        </main>
+    </section>
+    <hr id="hr-footer">
+
+<!-- copyright footer section -->
+    <footer id="copyright-section">
+        <div>&copy;Copyright 2020 SONGHEEYIM</div>
+    </footer>
+</body>
+</html>
