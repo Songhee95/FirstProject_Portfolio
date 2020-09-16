@@ -8,16 +8,16 @@ The main purpose of this project is to make WebPage using bootstrap. Most of htm
 ## Table of Contents
 * [URLs](#URLs)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Awesome Features](#Remarkable)
 * [License](#license)
 
 
 ## URLs
 1. Deployed URL
-    https://songhee95.github.io/horiseon-code-refactor/
+    https://songhee95.github.io/FirstProject_Portfolio/
 
 2. Github Page URL
-    [Github](https://github.com/Songhee95/horiseon-code-refactor)
+    [Github](https://github.com/Songhee95/FirstProject_Portfolio)
 
 
 ## Usage
@@ -27,7 +27,7 @@ The main purpose of this project is to make WebPage using bootstrap. Most of htm
 ![GitHub Logo](./assets/images/readme_portfolio2.JPG)
 
 
-## Awesome Features
+## Remarkable
 *Nav bar was drawn with <svg> element to customize the nav button style which lines have different colors.
 
 
