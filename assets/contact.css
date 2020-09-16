@@ -89,6 +89,7 @@ main h2{
 #wrap{
     padding:0;
     width:350px;
+    height: 635px
 }
 #wrap main{
     font-family: sans-serif;
