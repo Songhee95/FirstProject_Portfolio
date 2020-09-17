@@ -5,16 +5,6 @@ body{
     background-image: url(./images/backgroundImage.png);
     background-repeat: repeat;
 }
-header{
-    text-align: center;
-    padding: 1% 2%;
-    border-radius: 0.3rem;
-    background: #54bdaf;
-    font-size: 1.7rem;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(236, 235, 232);
-}
 nav #nav-icon{
     width: 50px;
     height: 40px;
@@ -45,12 +35,21 @@ main h2{
     min-width: 7rem;
 }
 #headline{
-    padding: 8px 8px 8px 18px;
-    width: 100%;
     background-color: rgb(241, 248, 246);
+    padding: 10px 0;
+}
+#header-background{
+    width: 243px;
+    text-align: center;
+    padding: 1% 2%;
+    border-radius: 0.3rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(236, 235, 232);
+    background-color:#54bdaf;
 }
 #nav1{
-    margin-right: 3%;
     margin-top: 0.8%;
 }
 #dditem1,#dditem2,#dditem3 {
@@ -88,13 +87,12 @@ main h2{
 }
 #wrap{
     padding:0;
-    width:350px;
     height: 635px
 }
 #wrap main{
     font-family: sans-serif;
     background: white;
-    width: 350px;
+    width: 91%;
     padding: 30px;
     margin: 65px 20px 60px 20px ;
 }
@@ -139,7 +137,6 @@ main h2{
 @media screen and (min-width:768px) and (max-width: 992px){
     header{
         font-size: 1.8rem;
-        padding: 1% 2%;
     }
     #wrap main{
         width: 520px;
@@ -153,10 +150,6 @@ main h2{
     
 /* media query break point set to desktop screen */
 @media screen and (min-width:992px){
-    header{
-        font-size: 2rem;
-        padding: 0.5% 1%;
-    }
     ul #contact {
         font-weight: bolder;
     }
