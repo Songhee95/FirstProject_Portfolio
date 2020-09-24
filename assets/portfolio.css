@@ -2,15 +2,17 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(./images/backgroundImage.png);
+    background-color: #f8dddd;
     background-repeat: repeat;
 }
-nav #nav-icon{
-    width: 50px;
-    height: 40px;
-    padding: 20%;
-    border-radius: 0.2rem;
-    background-color: rgb(241, 248, 246);
+header{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(105, 105, 103);
+    background-color:#e9b5b5;
 }
 ul #contact, ul #portfolio, ul #about{
     list-style-type: none;
@@ -19,38 +21,21 @@ ul #contact, ul #portfolio, ul #about{
 }
 main h2{
     font-weight: bolder;
-    font-size: 2.7rem;
-    color: #54bdaf;
+    color: rgb(105, 105, 103);
 }
 .btn, .btn-group{
-    width: 55px;
     background-color: rgb(241, 248, 246);
-    padding: 0;
-    border: 0.3px solid rgb(126, 120, 120);
-    border-radius: 0.2rem;
+    border-radius: 2rem;
+}
+.navbar-toggler{
+    border-radius: 2rem;
 }
 .dropdown-menu{
     font-family: 'Indie Flower', cursive;
-    font-size: 1.5rem;
     min-width: 7rem;
 }
 #headline{
-    background-color: rgb(241, 248, 246);
-    padding: 10px 0;
-}
-#header-background{
-    width: 243px;
-    text-align: center;
-    padding: 1% 2%;
-    border-radius: 0.3rem;
-    font-size: 1.7rem;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(236, 235, 232);
-    background-color:#54bdaf;
-}
-#nav1{  
-    margin-top: 0.8%;
+    background-color:#e9b5b5;
 }
 #dditem1,#dditem2,#dditem3 {
     padding: 6%;
@@ -72,7 +57,7 @@ main h2{
     font-family: sans-serif;
     visibility: hidden;
     position: absolute;
-    top: 20px;
+    top: 10px;
     font-size: 1.3rem;
 }
 #contact a, #portfolio a, #about a{
@@ -94,10 +79,10 @@ main h2{
     background: white;
     width: 91%;
     padding: 30px 30px 0 25px;
-    margin: 65px 20px 30px 20px ;
+    margin: 50px 15px 0px 20px ;
 }
 #hr-main{
-    background-color: rgb(238, 234, 234);
+    background-color: rgb(190, 185, 185);
 }
 #portfolioImages{
     width: 100%;
@@ -108,19 +93,20 @@ main h2{
     margin-bottom: 40px;
 }
 #hr-footer{
-    border: 4px solid #4ba397;
-    background-color: #4ba397;
+    width:100%;
+    padding: 4px 0;
+    background-color: #e4aaaa;
     margin: 0;
 }
 #copyright-section div{
     width: 100%;
-    background-color: #727070e5;
+    background-color: #e9b5b5;
     text-align: center;
-    padding: 10px 0;
-    height: 40px;
+    padding: 3px 0;
+    height: 22px;
     font-family: 'Grandstander', cursive;
     font-size: 10px;
-    color: #979393;
+    color: rgb(150, 150, 144);
 }
 
 /* media query break point set to tablet screen */
