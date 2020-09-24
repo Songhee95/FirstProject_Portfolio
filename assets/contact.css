@@ -27,28 +27,29 @@ main h2{
     background-color: rgb(241, 248, 246);
     border-radius: 2rem;
 }
-.navbar-toggler{
+.btn-group:hover{
+    background-color:  #f8dddd;
+}
+.btn-group .navbar-toggler,.btn-group .navbar-toggler:active,.btn-group .navbar-toggler::after{
     border-radius: 2rem;
+    outline: none;
 }
 .dropdown-menu{
     font-family: 'Indie Flower', cursive;
-    min-width: 7rem;
+    min-width: 5rem;
+}
+.dropdown-item:hover{
+    background-color: rgb(245, 208, 195);
 }
 #headline{
     background-color:#e9b5b5;
 }
-#dditem1,#dditem2,#dditem3 {
-    padding: 6%;
-} 
 #dditem1 a,#dditem2 a, #dditem3 a{
     text-decoration: none;
     color: black;
 }
 #dditem1 a{
     font-weight: bolder;
-}
-#dditem1 a:hover,#dditem2 a:hover,#dditem3 a:hover{
-    background-color: rgb(245, 208, 195);
 }
 #dditem1 a:active,#dditem2 a:active,#dditem3 a:active, .dropdown-item:active{
     background-color: rgb(236, 166, 140);
@@ -101,6 +102,10 @@ main h2{
     margin-left: 10px;
     border: none;
     color: white;
+}
+#submitWrap input:hover{
+    background-color: #e9b5b5;
+    outline: none;
 }
 #hr-footer{
     width:100%;

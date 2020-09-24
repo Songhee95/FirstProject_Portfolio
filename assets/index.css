@@ -21,7 +21,6 @@ ul #contact, ul #portfolio, ul #about{
 }
 main h2{
     font-weight: bolder;
-    font-size: 2.7rem;
     color: rgb(105, 105, 103);
 }
 footer{
@@ -40,12 +39,19 @@ button a{
     background-color: rgb(241, 248, 246);
     border-radius: 2rem;
 }
-.navbar-toggler{
+.btn-group:hover{
+    background-color:  #f8dddd;
+}
+.btn-group .navbar-toggler,.btn-group .navbar-toggler:active,.btn-group .navbar-toggler::after{
     border-radius: 2rem;
+    outline: none;
 }
 .dropdown-menu{
     font-family: 'Indie Flower', cursive;
-    min-width: 4rem;
+    min-width: 5rem;
+}
+.dropdown-item:hover{
+    background-color: rgb(245, 208, 195);
 }
 .paragraph{
     line-height: 150%;
@@ -53,9 +59,6 @@ button a{
 #headline{
     background-color:#e9b5b5;
 }
-#dditem1,#dditem2,#dditem3 {
-    padding: 6%;
-} 
 #dditem1 a,#dditem2 a, #dditem3 a{
     text-decoration: none;
     color: black;
@@ -100,6 +103,7 @@ button a{
     background-color: rgb(190, 185, 185);
 }
 #mypic img{
+    border-radius: 4.5rem;
     width: 185px;
     float: left;
     margin-right:20px;
