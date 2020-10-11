@@ -20,29 +20,46 @@
 <body>
      <!-- Head_nav1: MOBILE / TABLET SCREEN navigation section -->
     <nav  class="navbar navbar-dark bg-dark " id="nav1">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-        </button>
+        <button id="email"><a href='mailto: thdgml5537@gmail.com'>Email</a></button>
+        <button id="github"><a href='https://github.com/Songhee95'>Github</a></button>
         <header id="headline">
             SONGHEE YIM
         </header>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </button>
         <!-- Nav1 dropdown menu section -->
         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark">
-                <a class="list-group-item text-muted" id="dditem1" href="contact.html">Contact</a>
-                <a class="list-group-item text-muted" id="dditem2" href="portfolio.html">Portfolio</a>
+            <div class="bg-dark">'
                 <a class="list-group-item text-muted" id="dditem3" href="index.html">About</a>
+                <a class="list-group-item text-muted" id="dditem2" href="portfolio.html">Portfolio</a>
+                <a class="list-group-item text-muted" id="dditem1" href="contact.html">Contact</a>
             </div>
         </div>
     </nav>
     <!-- Head_nav2: DESKTOP SCREEN navigation section -->
-    <nav id="nav2">
-        <ul>
-            <li id="contact"><a href="contact.html">Contact</a></li>
-            <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
-            <li id="about"><a href="index.html">About</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav2">
+        <a class="navbar-brand" href="#">Navbar w/ text</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+          <span class="navbar-text">
+            Navbar text with an inline element
+          </span>
+      </nav>
 <!-- Main paragraph section -->
     <section id="wrap">
         <main>
@@ -57,13 +74,6 @@
             <p id="secondP">"<strong>Challenges</strong> are what make life interesting and overcoming them is what makes life meaningful." <p id="person">Joshua J. Marine</p></p>
         </main>
     </section>
-    <hr id="hr-footer">
-<!-- sticky footer section -->
-    <footer class="row ml-0 justify-content-around">
-            <button class="col-3" id="email"><a href='mailto: thdgml5537@gmail.com'>Email</a></button>
-            <button class="col-3" id="github"><a href='https://github.com/Songhee95'>Github</a></button>
-            <button class="col-3" id="toTop"><a href='index.html'>To top</a></button>
-    </footer>
 <!-- copyright section -->
     <section id="copyright-section">
         <div>&copy;Copyright 2020 SONGHEEYIM</div>

@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 header{
-    padding: 5px 0;
-    font-size: 2.5rem;
+    padding: 10px 0;
+    font-size: 2rem;
     font-weight: bold;
     font-family: serif;
-    color: rgb(177, 177, 172);
+    color: #c9d2dd;
 }
 ul #contact, ul #portfolio, ul #about{
     list-style-type: none;
@@ -15,22 +15,12 @@ ul #contact, ul #portfolio, ul #about{
 }
 main h2{
     font-weight: bolder;
-    color: rgb(105, 105, 103);
 }
-footer{
-    width: 100%;
-    background-color: #28272b ;
-    position: sticky;
-    bottom: 0;
-    font-family: 'Grandstander', cursive;
-    font-size: 1rem;
-    padding: 4px;
-}
-button a{
-    color: white;
+hr{
+    background-color: #969ea7;
 }
 i{
-    color: rgb(230, 223, 223);
+    color:#a78898;
 }
 .navbar-toggler,.navbar-toggler:active, .navbar-toggler:focus{
     outline: none;
@@ -40,11 +30,19 @@ i{
 .paragraph{
     line-height: 150%;
 }
+#email, #github{
+    padding: 0 50px;
+    background-color: #a78898;
+}
+#email a, #github a{
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bolder;
+}
 #navbarToggleExternalContent a{
     border: none;
-    font-family: 'Indie Flower', cursive;
-    background-color: #343a40;
-    font-size: 2rem;
+    background-color:  #343a40;;
+    font-size: 1.5rem;
     padding: 0;
 }
 #dditem1,#dditem2, #dditem3{
@@ -54,20 +52,12 @@ i{
     font-weight: bolder;
 }
 #nav2{
+    width: 100%;
     font-family: sans-serif;
-    visibility: hidden;
     position: absolute;
-    top: 10px;
+    top: 0;
+    visibility: hidden;
     font-size: 1.3rem;
-}
-#contact a, #portfolio a, #about a{
-    text-decoration: none;
-    border-radius: 2rem;
-    color: rgba(116, 109, 109, 0.788);
-    padding: 10px;
-}
-#contact a:hover, #portfolio a:hover, #about a:hover{
-    color: rgb(63, 72, 80);
 }
 #wrap{
     padding:0;
@@ -77,7 +67,6 @@ i{
     font-family: sans-serif;
     width: 91%;
     padding: 30px;
-    margin: 50px 15px 0px 20px ;
 }
 #mypic img{
     border-radius: 4.5rem;
@@ -105,16 +94,6 @@ i{
     margin: 0 9px;
     text-align: center;
 }
-#hr-footer{
-    width:100%;
-    padding: 4px 0;
-    background-color: #e4aaaa;
-    margin: 0;
-}
-#email, #github, #toTop{
-    background: #FFF0F5;
-    border-radius: 0.5rem;
-}
 #copyright-section div{
     width: 100%;
     text-align: center;
@@ -122,6 +101,7 @@ i{
     height: 22px;
     font-family: 'Grandstander', cursive;
     font-size: 10px;
+    background-color:#343a40;
     color: rgb(150, 150, 144);
 }
 
@@ -165,7 +145,6 @@ i{
     }
     #nav2{
         visibility: visible;
-        right: 2%;
     }
     #wrap main{
         width: 60%;
