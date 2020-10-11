@@ -1,18 +1,12 @@
 *{
     box-sizing: border-box;
 }
-body{
-    background-color: #f8dddd;
-    background-repeat: repeat;
-}
 header{
-    text-align: center;
     padding: 5px 0;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: serif;
-    color: rgb(105, 105, 103);
-    background-color:#e9b5b5;
+    color: rgb(177, 177, 172);
 }
 ul #contact, ul #portfolio, ul #about{
     list-style-type: none;
@@ -25,7 +19,7 @@ main h2{
 }
 footer{
     width: 100%;
-    background-color: #e9b5b5;
+    background-color: #28272b ;
     position: sticky;
     bottom: 0;
     font-family: 'Grandstander', cursive;
@@ -33,44 +27,31 @@ footer{
     padding: 4px;
 }
 button a{
-    color: #c09595;
+    color: white;
 }
-.btn, .btn-group{
-    background-color: rgb(241, 248, 246);
-    border-radius: 2rem;
+i{
+    color: rgb(230, 223, 223);
 }
-.btn-group:hover{
-    background-color:  #f8dddd;
-}
-.btn-group .navbar-toggler,.btn-group .navbar-toggler:active,.btn-group .navbar-toggler::after{
-    border-radius: 2rem;
+.navbar-toggler,.navbar-toggler:active, .navbar-toggler:focus{
     outline: none;
-}
-.dropdown-menu{
-    font-family: 'Indie Flower', cursive;
-    min-width: 5rem;
-}
-.dropdown-item:hover{
-    background-color: rgb(245, 208, 195);
+    border: none;
+    padding: 0;
 }
 .paragraph{
     line-height: 150%;
 }
-#headline{
-    background-color:#e9b5b5;
+#navbarToggleExternalContent a{
+    border: none;
+    font-family: 'Indie Flower', cursive;
+    background-color: #343a40;
+    font-size: 2rem;
+    padding: 0;
 }
-#dditem1 a,#dditem2 a, #dditem3 a{
+#dditem1,#dditem2, #dditem3{
     text-decoration: none;
-    color: black;
 }
-#dditem3 a{
+#dditem3{
     font-weight: bolder;
-}
-#dditem1 a:hover,#dditem2 a:hover,#dditem3 a:hover{
-    background-color: rgb(245, 208, 195);
-}
-#dditem1 a:active,#dditem2 a:active,#dditem3 a:active, .dropdown-item:active{
-    background-color: rgb(236, 166, 140);
 }
 #nav2{
     font-family: sans-serif;
@@ -86,7 +67,6 @@ button a{
     padding: 10px;
 }
 #contact a:hover, #portfolio a:hover, #about a:hover{
-    background-color: rgb(192, 162, 162);
     color: rgb(63, 72, 80);
 }
 #wrap{
@@ -98,9 +78,6 @@ button a{
     width: 91%;
     padding: 30px;
     margin: 50px 15px 0px 20px ;
-}
-#hr-main{
-    background-color: rgb(190, 185, 185);
 }
 #mypic img{
     border-radius: 4.5rem;
@@ -140,7 +117,6 @@ button a{
 }
 #copyright-section div{
     width: 100%;
-    background-color: #e9b5b5;
     text-align: center;
     padding: 3px 0;
     height: 22px;

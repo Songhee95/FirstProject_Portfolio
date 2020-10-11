@@ -1,18 +1,12 @@
 *{
     box-sizing: border-box;
 }
-body{
-    background-color: #f8dddd;
-    background-repeat: repeat;
-}
 header{
-    text-align: center;
     padding: 5px 0;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: serif;
-    color: rgb(105, 105, 103);
-    background-color:#e9b5b5;
+    color: rgb(177, 177, 172);
 }
 ul #contact, ul #portfolio, ul #about{
     list-style-type: none;
@@ -23,39 +17,23 @@ main h2{
     font-weight: bolder;
     color: rgb(105, 105, 103);
 }
-.btn, .btn-group{
-    background-color: rgb(241, 248, 246);
-    border-radius: 2rem;
-}
-.btn-group:hover{
-    background-color:  #f8dddd;
-}
-.btn-group .navbar-toggler,.btn-group .navbar-toggler:active,.btn-group .navbar-toggler::after{
-    border-radius: 2rem;
+.navbar-toggler,.navbar-toggler:active, .navbar-toggler:focus{
     outline: none;
+    border: none;
+    padding: 0;
 }
-.dropdown-menu{
+#navbarToggleExternalContent a{
+    border: none;
     font-family: 'Indie Flower', cursive;
-    min-width: 5rem;
+    background-color: #343a40;
+    font-size: 2rem;
+    padding: 0;
 }
-.dropdown-item:hover{
-    background-color: rgb(245, 208, 195);
-}
-#headline{
-    background-color:#e9b5b5;
-}
-#dditem1 a,#dditem2 a, #dditem3 a{
+#dditem1,#dditem2, #dditem3{
     text-decoration: none;
-    color: black;
 }
-#dditem2 a{
+#dditem2{
     font-weight: bolder;
-}
-#dditem1 a:hover,#dditem2 a:hover,#dditem3 a:hover{
-    background-color: rgb(245, 208, 195);
-}
-#dditem1 a:active,#dditem2 a:active,#dditem3 a:active, .dropdown-item:active{
-    background-color: rgb(236, 166, 140);
 }
 #nav2{
     font-family: sans-serif;
