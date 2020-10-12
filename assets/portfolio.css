@@ -1,11 +1,8 @@
 *{
     box-sizing: border-box;
-}
-body{
-    position: relative;
+    background-color:#343a40;
 }
 header{
-    padding: 10px 0;
     font-size: 2rem;
     font-weight: bold;
     font-family: serif;
@@ -16,9 +13,6 @@ ul #contact, ul #portfolio, ul #about{
     float: left;
     padding: 5px;
 }
-main h2{
-    font-weight: bolder;
-}
 .fa-bars{
     color:#a78898;
 }
@@ -27,21 +21,21 @@ main h2{
     border: none;
     padding: 0;
 }
-#email, #github{
-    padding: 0 50px;
-    background-color: #a78898;
+.card{
+    border: none;
 }
-#email a, #github a{
-    text-decoration: none;
-    color: #343a40;
-    font-weight: bolder;
+.card-header{
+    padding: 0;
+}
+.btn img{
+    width: 100%;
 }
 #navbarToggleExternalContent a{
     border: none;
     background-color: #343a40;
     font-size: 1.5rem;
 }
-#dditem1,#dditem2, #dditem3{
+#dditem1,#dditem2, #dditem3, #dditem4, #dditem5{
     text-decoration: none;
 }
 #dditem2{
@@ -55,32 +49,12 @@ main h2{
     visibility: hidden;
     font-size: 1.3rem;
 }
-#wrap main{
-    font-family: sans-serif;
-    background: white;
-    width: 91%;
-    padding: 30px 30px 0 15px;
+#headingOne, #headingThree{
+    background:#181a1d;
 }
-#portfolioImages{
-    width: 100%;
-    padding-top: 5%;
-}
-#portfolioImages img{
-    width: 300px;
-    margin-bottom: 40px;
-}
-#copyright-section div{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background-color:#343a40;
-    text-align: center;
-    padding: 3px 0;
-    height: 22px;
-    font-family: 'Grandstander', cursive;
-    font-size: 10px;
-    color: rgb(150, 150, 144);
-}   
+#headingTwo, #headingFour{
+    background:#181a1d;
+} 
 /* media query break point set to desktop screen */
 @media screen and (min-width:992px){
     #nav1{
@@ -88,5 +62,12 @@ main h2{
     }
     #nav2{
         visibility: visible;
+    }
+    .card{
+        float:left;
+        width: 50%;
+    }
+    .btn img{
+        width: 80%;
     }
 }
