@@ -19,7 +19,7 @@ main h2{
 hr{
     background-color: #969ea7;
 }
-i{
+.fa-bars{
     color:#a78898;
 }
 .navbar-toggler,.navbar-toggler:active, .navbar-toggler:focus{
@@ -41,9 +41,8 @@ i{
 }
 #navbarToggleExternalContent a{
     border: none;
-    background-color:  #343a40;;
+    background-color:  #343a40;
     font-size: 1.5rem;
-    padding: 0;
 }
 #dditem1,#dditem2, #dditem3{
     text-decoration: none;
@@ -58,10 +57,6 @@ i{
     top: 0;
     visibility: hidden;
     font-size: 1.3rem;
-}
-#wrap{
-    padding:0;
-    height:900px;
 }
 #wrap main{
     font-family: sans-serif;
@@ -104,54 +99,12 @@ i{
     background-color:#343a40;
     color: rgb(150, 150, 144);
 }
-
-/* media query break point set to tablet screen */
-@media screen and (min-width:768px) and (max-width: 992px){
-    header{
-        font-size: 1.8rem;
-    }
-    footer{
-        position: relative;
-        height: 0px;
-    }
-    footer button{
-        visibility: hidden;
-    }
-    #wrap main{
-        width: 60%;
-        margin-left: 30px;
-    }
-    #copyright-section div{
-        height: 70px;
-        padding-top: 20px;
-        font-size: 1rem;
-    }
-}
-    
-
 /* media query break point set to desktop screen */
 @media screen and (min-width:992px){
-    footer{
-        height: 0px;
-    }
-    footer button{
-        visibility: hidden;
-    }
-    ul #about {
-        font-weight: bolder;
-    }
     #nav1{
         visibility: hidden;
     }
     #nav2{
         visibility: visible;
-    }
-    #wrap main{
-        width: 60%;
-    }
-    #copyright-section div{
-        height: 70px;
-        padding-top: 20px;
-        font-size: 1.3rem;
     }
 }
