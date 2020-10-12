@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+}
+body{
     background-color:#343a40;
 }
 header{
@@ -27,8 +29,15 @@ ul #contact, ul #portfolio, ul #about{
 .card-header{
     padding: 0;
 }
-.btn img{
-    width: 100%;
+.cardHeader img{
+    border: 10px solid grey;
+    border-radius: 2rem;
+    width: 80%;
+    margin: 5% 10%;
+    padding: 10px;
+}
+button:focus{
+    outline: none;
 }
 #navbarToggleExternalContent a{
     border: none;
@@ -50,10 +59,10 @@ ul #contact, ul #portfolio, ul #about{
     font-size: 1.3rem;
 }
 #headingOne, #headingThree{
-    background:#181a1d;
+    background-color:#424950;
 }
 #headingTwo, #headingFour{
-    background:#181a1d;
+    background-color:#343a40;
 } 
 /* media query break point set to desktop screen */
 @media screen and (min-width:992px){
@@ -66,8 +75,15 @@ ul #contact, ul #portfolio, ul #about{
     .card{
         float:left;
         width: 50%;
+        height: 600px;
     }
     .btn img{
-        width: 80%;
+        width: 60%;
     }
+    #headingOne, #headingFour{
+        background-color:#424950;
+    }
+    #headingTwo, #headingThree{
+        background-color:#343a40;
+    } 
 }
