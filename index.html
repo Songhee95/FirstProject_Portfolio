@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
      <!-- Head_nav1: MOBILE / TABLET SCREEN navigation section -->
@@ -30,7 +31,7 @@
         <!-- Nav1 dropdown menu section -->
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark">
-                <a class="list-group-item text-muted" id="dditem3" href="#about">About</a>
+                <a class="list-group-item text-muted" id="dditem3" href="#about" onclick="scrollToAbout()">About</a>
                 <a class="list-group-item text-muted" id="dditem2" href="#portfolio">Portfolio</a>
                 <a class="list-group-item text-muted" id="dditem1" href="#contact">Contact</a>
                 <a class="list-group-item text-muted" id="dditem4" href='https://github.com/Songhee95'>Github</a>
@@ -104,7 +105,7 @@
               </div>
           </div>
       </div>
-      <div class="row justify-content-center mx-0">
+      <div class="row justify-content-around mx-0">
           <div class="card col-lg-5" id="headingThree">
               <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                   <img src="./assets/portfolioImg/dailyScheduler.PNG" alt="dailyScheduler"/>
@@ -155,5 +156,14 @@
     <footer id="copyright-section">
         <div>&copy;Copyright 2020 SONGHEEYIM</div>
     </footer>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script>
+      $(function(){
+        $('div a').click(function(e){
+          $.scrollTo(this.hash||0,1000);
+          e.preventDefault();
+        });
+      });
+    </script>
 </body>
 </html>
