@@ -4,26 +4,28 @@
 nav h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    color:#D3AC2B;
+    color: #66FCF1;
 }
 section{
     position: relative;
     width: 100%;
-    margin-bottom: 50px;
 }
 body{
-    background-color: #CBD0D8 ;
+    background-color:#e5f0ef;
 }
 i{
-    color:#D3AC2B;
+    color:#45A29E;
 }
 .navbar-toggler,.navbar-toggler:active, .navbar-toggler:focus{
     outline: none;
     border: none;
 }
+.arrowDown{
+    margin-top: 50px;
+}
 .card{
-    border: none;
-    margin: 10px 0;
+    box-shadow: 2px 10px 10px 2px rgba(226, 224, 224, 0.746);
+    margin:21%;
     padding: 0;
 }
 .cardHeader{
@@ -33,15 +35,16 @@ i{
     width: 100%;
 }
 #nav1{
-    background-color:  #333D51;
+    background-color:#0B0C10;
 }
 #navbarToggleExternalContent a{
     border: none;
-    background-color:  #343a40;
+    background-color:#0B0C10;
     font-size: 1.5rem;
 }
-#dditem1,#dditem2, #dditem3{
+#dditem1,#dditem2, #dditem3, #dditem4, #dditem5{
     text-decoration: none;
+    color: #C5C6C7;
 }
 #dditem3{
     font-weight: bolder;
@@ -53,16 +56,23 @@ i{
     top: 0;
     visibility: hidden;
     font-size: 1.3rem;
-    background-color:  #333D51; 
+    background-color:#0B0C10;
 }
 #about{
-    background-color:  #CBD0D8;
+    background-color:#0B0C10;
     font-family: sans-serif;
     text-align: center;
-    color: black;
+    color: #66FCF1;
 }
-#mypic img{
-    max-width: 100%;
+#mypic{
+    /* max-width: 100%; */
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+#fullStack{
+    font-size: 2rem;
+    font-weight: bolder;
 }
 #firstP{
     padding: 0 20px;
@@ -76,10 +86,29 @@ i{
     margin: 0 20px;
 }
 #portfolio{
-    background-color: #F4F3EA;
+    background-color:  #e5f0ef;
+}
+#portfolioHead{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 20px auto;
+    text-align: center;
+}
+#headingOne, #collapseOne a, #headingFour, #collapseFour a{
+    background-color: #314455;
+    color: seashell;
+}
+#headingTwo, #collapseTwo a{
+    background-color: #97AABD;
+    color: black;
+}
+#headingThree, #collapseThree a{
+    background-color:#644E5B;
+    color: seashell;
 }
 #contact{
-    color:black;
+    background-color: #0F292F;
+    color:#CCCCCC;
     padding:0 20%;
 }
 #input{
@@ -110,7 +139,7 @@ i{
     height: 50px;
     font-family: 'Grandstander', cursive;
     font-size: 10px;
-    background-color:#333D51;
+    background-color:#0B0C10;
     color: rgb(150, 150, 144);
 }
 #topBtn{
@@ -131,21 +160,14 @@ i{
         float: left;
     }
     .paragraphWrap{
-        padding-top: 150px;
-    }
-    .accordion{
-        clear: both;
+        padding-top: 50px;
     }
     .card{
+        margin: 0 10%;
+    }
+    #headingOne, #headingTwo,#headingThree, #headingFour{
         float:left;
-        width: 40%;
     }
-    #headingOne, #headingFour{
-        background-color:white;
-    }
-    #headingTwo, #headingThree{
-        background-color:white;
-    } 
     #contact{
         clear: both;
     }

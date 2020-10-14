@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Dancing+Script&family=Grandstander:wght@500&family=Indie+Flower&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -31,11 +30,11 @@
         <!-- Nav1 dropdown menu section -->
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark">
-                <a class="list-group-item text-muted" id="dditem3" href="#about">About</a>
-                <a class="list-group-item text-muted" id="dditem2" href="#portfolio">Portfolio</a>
-                <a class="list-group-item text-muted" id="dditem1" href="#contact">Contact</a>
-                <a class="list-group-item text-muted" id="dditem4" href='https://github.com/Songhee95'>Github</a>
-                <a class="list-group-item text-muted" id="dditem5" href='https://www.linkedin.com/in/songhee-y-821442167/'>Linkedin</a>
+                <a class="list-group-item" id="dditem3" href="#about">About</a>
+                <a class="list-group-item" id="dditem2" href="#portfolio">Portfolio</a>
+                <a class="list-group-item" id="dditem1" href="#contact">Contact</a>
+                <a class="list-group-item" id="dditem4" href='https://github.com/Songhee95'>Github</a>
+                <a class="list-group-item" id="dditem5" href='https://www.linkedin.com/in/songhee-y-821442167/'>Linkedin</a>
             </div>
         </div>
     </div>
@@ -69,91 +68,67 @@
       </nav>
 <!-- Main paragraph section -->
     <section id="about">
-      <div id="mypic">
-          <img src="./assets/images/songhee.jpg" alt="my picture">
+      <div class="row justify-content-center mx-0">
+        <p id="mypic">PICTURE</p>
+          <!-- <img src="./assets/images/songhee.jpg" alt="my picture"> -->
       </div>
       <div class="paragraphWrap">
+        <p id="fullStack">FULL STACK DEVELOPER</p>
         <p id="firstP">I graduate material engineering in Texas. Somehow, I worked at mobile company as a QA engineer.
             Whenever I looked at the mobile issue logs (codes), it had always fascinated me. It took a year to decide to change my whole career. 
             Numerous doubts and questioning about my decision keep scaring me. But I have already took this journey and I will make it happen!  Hire me!</p>
       </div>
       <div id="skillSet">
-          <p>SKILL SET</p>
+          <p><strong>SKILL SET</strong></p>
           <i class="fab fa-js fa-5x" id="js"></i> <i class="fab fa-html5 fa-5x" id="html5"></i> <i class="fab fa-css3 fa-5x" id="css3"></i>
       </div>
+      <div class='arrowDown'>
+        <a href="#portfolio"><i class="fas fa-chevron-down fa-2x"></i></a>
+      </a>
     </section>
     <!-- Main Portfolio section -->
     <section class="accordion" id="portfolio">
-      <div class="row justify-content-around mx-0">
-          <div class="card col-lg-5" id="headingOne">
-              <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <img src="./assets/portfolioImg/passwordGenerator.PNG" alt="dailyScheduler"/>
-              </div>
-              <div id="collapseOne" class="collapse card-body" aria-labelledby="headingOne" data-parent="#portfolio">
-                <p><strong>Generate highly secured password</strong></p>
-                <p>&#x2714 Include Symbols (e.g. @#$%^) </p>
-                <p>&#x2714 Include Numbers (e.g. 12345) </p>
-                <p>&#x2714 Include Lowercase Characters </p>
-                <p>&#x2714 Include Uppercase Characters</p>
-              </div>
-          </div>
-          <div class="card col-lg-5" id="headingTwo">
-              <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                  <img src="./assets/portfolioImg/timer.PNG" alt="dailyScheduler"/>
-              </div>
-              <div id="collapseTwo" class="collapse card-body" aria-labelledby="headingTwo" data-parent="#portfolio">
-                <p><strong>Better time management with study timer</strong></p>
-                <p>&#x2714 Study timer </p>
-                <p>&#x2714 Break timer</p>
-              </div>
-          </div>
-      </div>
-      <div class="row justify-content-around mx-0">
-          <div class="card col-lg-5" id="headingThree">
-              <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                  <img src="./assets/portfolioImg/dailyScheduler.PNG" alt="dailyScheduler"/>
-              </div>
-              <div id="collapseThree" class="collapse card-body" aria-labelledby="headingThree" data-parent="#portfolio">
-                <p><strong>Increase work ability with daily-work-scheduler</strong></p>
-                <p>&#x2714 Visualize time passing</p>
-                <p>&#x2714 Save or clear works</p>
-              </div>
-          </div>
-          <div class="card col-lg-5" id="headingFour">
-              <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
-                  <img src="./assets/portfolioImg/weatherApp.PNG" alt="dailyScheduler"/>
-              </div>
-              <div id="collapseFour" class="collapse card-body" aria-labelledby="headingFour" data-parent="#portfolio">
-                <p><strong>Check Weather for any location</strong></p>
-                <p>&#x2714 Save your search history</p>
-                <p>&#x2714 Get 5 days weather information additionally</p>
-              </div>
-          </div>
-      </div>
+      <div id="portfolioHead">PORTFOLIO</div>
+        <div class="card col-7 col-lg-3 my-0" id="headingOne">
+            <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <img src="./assets/portfolioImg/passwordGenerator.PNG" alt="dailyScheduler"/>
+            </div>
+            <div id="collapseOne" class="collapse card-body" aria-labelledby="headingOne" data-parent="#portfolio">
+              <p><strong>Generate highly secured password</strong></p>
+              <a href="https://songhee95.github.io/Password-Generator/">Go to Website</a>
+            </div>
+        </div>
+        <div class="card col-7 col-lg-3" id="headingTwo">
+            <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                <img src="./assets/portfolioImg/timer.PNG" alt="dailyScheduler"/>
+            </div>
+            <div id="collapseTwo" class="collapse card-body" aria-labelledby="headingTwo" data-parent="#portfolio">
+              <p><strong>Time management with study timer</strong></p>
+              <a href="https://songhee95.github.io/First_Timer/">Go to Website</a>
+            </div>
+        </div>
+        <div class="card col-7 col-lg-3" id="headingThree">
+            <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                <img src="./assets/portfolioImg/dailyScheduler.PNG" alt="dailyScheduler"/>
+            </div>
+            <div id="collapseThree" class="collapse card-body" aria-labelledby="headingThree" data-parent="#portfolio">
+              <p><strong>Increase work ability with daily-work-scheduler</strong></p>
+              <a href="https://songhee95.github.io/Daily-planner/">Go to Website</a>
+            </div>
+        </div>
+        <div class="card col-7 col-lg-3" id="headingFour">
+            <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                <img src="./assets/portfolioImg/weatherApp.PNG" alt="dailyScheduler"/>
+            </div>
+            <div id="collapseFour" class="collapse card-body" aria-labelledby="headingFour" data-parent="#portfolio">
+              <p><strong>Check Weather for any location</strong></p>
+              <a href="https://songhee95.github.io/Weather-Dashboard/">Go to Website</a>
+            </div>
+        </div>
   </section>
   <!-- Main paragraph | input section -->
   <section id="contact">
-      <form action="#" method="post">
-          <div id="inputWrap">
-              <div id="input">
-                  <label class="row ml-0 mr-0" for="name">Name</label>
-                  <input class="row ml-0 mr-0" type="text" id="name" name="name" placeholder="Name">
-              </div>
-              <div id="input">
-                  <label class="row ml-0 mr-0" for="email">Email</label>
-                  <input class="row ml-0 mr-0" type="email" id="email" name="email" placeholder="Email">
-              </div>
-              <div id="input">    
-                  <label class="row ml-0 mr-0" for="message">Message</label>
-                  <textarea class="row ml-0 mr-0" name="message" rows="3" placeholder="Message"></textarea>
-              </div>
-          </div>
-          <div id="submitWrap">
-              <div class="row ml-0 mr-0" id="submit">
-                  <input type="submit" value="Submit">
-              </div>
-          </div>
-      </form>
+      FEEL FREE TO CONTACT ME! 
   </section>
 <!-- copyright section -->
     <footer id="copyright-section">
@@ -169,7 +144,6 @@
       $(function(){
         $('div a').click(function(e){
           $.scrollTo(this.hash||0,1000);
-          e.preventDefault();
         });
       });
     </script>
