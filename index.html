@@ -68,18 +68,23 @@
       </nav>
 <!-- Home section -->
     <section id="home">
-      <div id="mypic">
-        <p>PICTURE</p>
-          <!-- <img src="./assets/images/songhee.jpg" alt="my picture"> -->
-      </div>
-      <div id="homeParagraph">
-        <div class="vl"></div>
-        <div class='row'>
-            <div class="col-10">&lt;Hello my="nameIs"&gt;</div>
-            <div class="col-10" id="name">Songhee Yim</div>
-            <div class='col-10' id="fullStack">FULL STACK DEVELOPER</div>
-            <div class="col-10">&lt;/Hello&gt;</div>
+      <div class="row mx-0 justify-content-around">
+        <div class="col-lg-6"  id="mypic">
+          <p >PICTURE</p>
+            <!-- <img src="./assets/images/songhee.jpg" alt="my picture"> -->
         </div>
+        <div class="col-lg-5" id="homeParagraph">
+          <div class="vl"></div>
+          <div class='row mx-0'>
+              <div class="col-10 pr-0">&lt;Hello my="nameIs"&gt;</div>
+              <div class="col-10 pr-0" id="name">Songhee Yim</div>
+              <div class='col-10 pr-0' id="fullStack">FULL STACK DEVELOPER</div>
+              <div class="col-10 pr-0">&lt;/Hello&gt;</div>
+          </div>
+        </div>
+      </div>
+      <div class='arrowDown row mx-0 justify-content-center'>
+        <a href="#about"><i class="fas fa-chevron-down fa-2x"></i></a>
       </div>
     </section>
 <!-- about paragraph section -->
@@ -100,8 +105,7 @@
     </section>
     <!-- Main Portfolio section -->
     <section class="accordion" id="portfolio">
-      <div id="portfolioHead">PORTFOLIO</div>
-        <div class="card col-7 col-lg-3 my-0" id="headingOne">
+        <div class="card col-10 col-lg-3 my-0 align-self-center" id="headingOne">
             <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <img src="./assets/portfolioImg/passwordGenerator.PNG" alt="dailyScheduler"/>
             </div>
@@ -110,7 +114,7 @@
               <a href="https://songhee95.github.io/Password-Generator/">Go to Website</a>
             </div>
         </div>
-        <div class="card col-7 col-lg-3" id="headingTwo">
+        <div class="card col-10 col-lg-3" id="headingTwo">
             <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                 <img src="./assets/portfolioImg/timer.PNG" alt="dailyScheduler"/>
             </div>
@@ -119,7 +123,7 @@
               <a href="https://songhee95.github.io/First_Timer/">Go to Website</a>
             </div>
         </div>
-        <div class="card col-7 col-lg-3" id="headingThree">
+        <div class="card col-10 col-lg-3" id="headingThree">
             <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                 <img src="./assets/portfolioImg/dailyScheduler.PNG" alt="dailyScheduler"/>
             </div>
@@ -128,7 +132,7 @@
               <a href="https://songhee95.github.io/Daily-planner/">Go to Website</a>
             </div>
         </div>
-        <div class="card col-7 col-lg-3" id="headingFour">
+        <div class="card col-10 col-lg-3" id="headingFour">
             <div class="btn cardHeader" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
                 <img src="./assets/portfolioImg/weatherApp.PNG" alt="dailyScheduler"/>
             </div>
