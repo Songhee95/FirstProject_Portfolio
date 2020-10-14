@@ -16,13 +16,16 @@ body{
 i{
     color:#45A29E;
 }
+li{
+    list-style: none;
+}
 .navbar-toggler,.navbar-toggler:active, .navbar-toggler:focus{
     outline: none;
     border: none;
 }
 .vl {
     border-left: 6px solid #66FCF1;
-    height: 140px;
+    height: 160px;
     float: left;
   }
 .arrowDown{
@@ -80,20 +83,21 @@ i{
     font-weight: 500;
 }
 #about{
+    font-size: 2rem;
     clear: both;
     background-color:#0B0C10;
     font-family: sans-serif;
     text-align: center;
     color: #66FCF1;
 }
-#firstP{
+#firstP, #secondP li{
     padding: 0 20px;
     font-size:1rem;
     width: 100%;
     color: #45A29E;
 }
 #skillSet{
-    margin-top: 100px;
+    margin: 50px 0;
 }
 #js, #html5, #css3{
     margin: 0 20px;
@@ -185,17 +189,15 @@ i{
     #about{
         padding: 5%;
     }
-    #firstP{
-        float: left;
-    }
     #skillSet{
+        padding: 100px 0;
         margin-top: 0;
         width: 33%;
         float: left;
     }
-    .paragraphWrap{
+    .paragraphWrap1, .paragraphWrap2{
+        padding: 100px 50px;
         float: left;
-        padding-top: 0px;
         width: 33%;
     }
     .card{
