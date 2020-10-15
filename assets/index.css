@@ -180,8 +180,21 @@ li{
         visibility: visible;
     }
     #home{
+        position: relative;
+        z-index: 2;
         padding: 6% 10%;
         font-size: 20px;
+    }
+    .homeBackground{
+        width: 100%;
+        height: 100%;
+        background-image: url(./images/code.PNG);
+        opacity: 0.15;
+        background-size: cover;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index:-1;
     }
     #homeParagraph{
         padding-left: 3.5%;
