@@ -30,6 +30,7 @@ li{
   }
 .arrowDown{
     padding: 50px 0;
+    font-size: 1rem;
 }
 .card{
     box-shadow: 5px 10px 10px 5px rgba(226, 224, 224, 0.746);
@@ -127,7 +128,7 @@ li{
     text-align: center;
     padding: 15px 0;
     height: 50px;
-    font-family: 'Grandstander', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     background-color:#0B0C10;
     color: rgb(150, 150, 144);
@@ -147,6 +148,25 @@ li{
     right: 5px;
 }
 @media screen and (min-width:992px){
+    .homeBackground{
+        width: 100%;
+        height: 100%;
+        background-image: url(./images/code.PNG);
+        opacity: 0.1;
+        background-size: cover;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index:-1;
+    }
+    .paragraphWrap1, .paragraphWrap2{
+        padding: 100px 50px;
+        float: left;
+        width: 33%;
+    }
+    .arrowDown{
+        clear: both;
+    }
     #nav1{
         visibility: hidden;
     }
@@ -158,17 +178,6 @@ li{
         z-index: 2;
         padding: 6% 10%;
         font-size: 20px;
-    }
-    .homeBackground{
-        width: 100%;
-        height: 100%;
-        background-image: url(./images/code.PNG);
-        opacity: 0.1;
-        background-size: cover;
-        top: 0;
-        left: 0;
-        position: absolute;
-        z-index:-1;
     }
     #homeParagraph{
         padding-left: 3.5%;
@@ -182,19 +191,9 @@ li{
         width: 33%;
         float: left;
     }
-    .paragraphWrap1, .paragraphWrap2{
-        padding: 100px 50px;
-        float: left;
-        width: 33%;
-    }
-    .card{
-        margin: 0 10%;
-    }
-    .arrowDown{
+    #portfolio{
         clear: both;
-    }
-    #headingOne, #headingTwo,#headingThree, #headingFour{
-        float:left;
+        padding: 0;
     }
     #topBtn{
         left: auto;
