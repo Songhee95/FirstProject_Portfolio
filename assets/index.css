@@ -151,8 +151,8 @@ li{
     .homeBackground{
         width: 100%;
         height: 100%;
-        background-image: url(./images/background1.jpg);
-        opacity: 0.1;
+        background-image: url(./images/background2.jpg);
+        opacity: 0.3;
         background-size:cover;
         top: 0;
         left: 0;
@@ -188,6 +188,7 @@ li{
     }
     #name,#fullStack{
         font-size: 4rem;
+        color: white;
     }
     #about{
         padding: 5%;
