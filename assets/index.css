@@ -32,6 +32,23 @@ li{
     padding: 50px 0;
     font-size: 1rem;
 }
+#skillSet{
+    padding: 0 20px
+}
+.p1{
+    text-align: justify;
+    padding: 0 20px;
+    font-size:1rem;
+    width: 100%;
+    color: #45A29E;
+}
+.logo{
+    color: #45A29E;
+    padding: 0;
+    border-radius: 2rem;
+    font-size: 5rem;
+    margin:5px;
+}
 .card{
     box-shadow: 5px 10px 10px 5px rgba(226, 224, 224, 0.746);
     padding: 0;
@@ -91,18 +108,9 @@ li{
     text-align: center;
     color: #66FCF1;
 }
-#firstP, #secondP{
-    padding: 0 20px;
-    font-size:1rem;
-    width: 100%;
-    color: #45A29E;
-}
-#skillSet{
-    margin: 50px 0;
-}
-#js, #html5, #css3{
-    margin: 0 20px;
-    color:rgba(212, 207, 203, 0.753);
+#workplace-strength{
+    padding: 0 20%;
+    text-align: center;
 }
 #portfolio{
     background-color:#90b6b8;
@@ -162,10 +170,8 @@ li{
     .vl{
         height: 350px;
     }
-    .paragraphWrap1, .paragraphWrap2{
-        padding: 100px 50px;
-        float: left;
-        width: 33%;
+    .paragraphWrap1, #skillSet{
+        padding:50px 0;
     }
     .arrowDown{
         clear: both;
@@ -189,15 +195,6 @@ li{
     #name,#fullStack{
         font-size: 4rem;
         color: white;
-    }
-    #about{
-        padding: 5%;
-    }
-    #skillSet{
-        padding: 100px 0;
-        margin-top: 0;
-        width: 33%;
-        float: left;
     }
     #portfolio{
         clear: both;

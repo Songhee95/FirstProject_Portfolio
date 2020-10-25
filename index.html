@@ -39,6 +39,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
@@ -110,9 +111,7 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about"
-              >About</a
-            >
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -136,7 +135,9 @@
             <div class="col-12">&lt;Hello my="name-is"&gt;</div>
             <div class="col-12" id="name">Songhee Yim</div>
             <div class="col-12" id="fullStack">FULL STACK DEVELOPER</div>
-            <div class="col-12" id="description">&lt;i like="Debugging"&gt;&lt;/i&gt;</div>
+            <div class="col-12" id="description">
+              &lt;i like="Debugging"&gt;&lt;/i&gt;
+            </div>
             <div class="col-12">&lt;/Hello&gt;</div>
           </div>
         </div>
@@ -148,32 +149,75 @@
     </section>
     <!-- about paragraph section -->
     <section id="about">
-      <div class="paragraphWrap1">
-        <p><strong>About me</strong></p>
-        <p id="firstP">
-          I am full-stack developer with a background in engineer so I think and
-          write logically when I code. Since I have work experience of mobile
-          protocol, my work ability is expanded to mobile field. I am a
-          Developer with strong sills in debugging. I am fully ready to work and
-          learn from bigger challenges. Hire me!
-        </p>
-      </div>
-      <div id="skillSet">
-        <p><strong>SKILL SET</strong></p>
-        <i class="fab fa-js fa-3x" id="js"></i>
-        <i class="fab fa-html5 fa-3x" id="html5"></i>
-        <i class="fab fa-css3 fa-3x" id="css3"></i>
-      </div>
-      <div class="paragraphWrap2">
-        <p><strong>WorkPlace Strength</strong></p>
-        <ul id="secondP">
-          <li>Great Teamwork Skill</li>
-          <li>Collaboration</li>
-          <li>Fast Learner</li>
-          <li>Problem-solving by analyzing</li>
-          <li>Excellent time management</li>
-          <li>Mind control under pressure</li>
-        </ul>
+      <div class="row justify-content-between mx-0">
+        <div class="paragraphWrap1 col-lg-4">
+          <p><strong>About me</strong></p>
+          <p class="p1">
+            Full Stack Developer with Engineering background to think more
+            logically and process more efficiently in creating code. Recently
+            earned a certificate in Full Stack Development from Georgia institute
+            of Technology. I have honed my skills in HTML5, CSS, Bootstrap,
+            jQuery, JavaScript, React.js, and responsive Web design to develop
+            clear and impactive client-side applications and MySQL, MoingoDB, Node.js and Express.js to
+            develop effective server-side applications. Known as an outstanding
+            problem solver with analyzing skills and able to work with a team
+            while solving problems in high-stress environments. My motivation is
+            to make great collaboration by giving respect and support to my
+            teammates and this motivation leads our project and team to success.
+            Looking to bring my passion and technical skills to the company to
+            grow and become a valuable asset.
+          </p>
+        </div>
+        <div id="skillSet" class="col-lg-7">
+          <div class="row mx-0 justify-content-around">
+            <p><strong>SKILL SET</strong></p>
+          </div>
+          <div class="row mx-0 justify-content-center">
+              <div class="logo">
+                <i class="devicon-bootstrap-plain-wordmark devicon"></i>
+              </div>
+              <div class="logo">
+                <i class="devicon-jquery-plain-wordmark devicon"></i>
+              </div>  
+              <div class="logo">
+                <i class="devicon-javascript-plain devicon"></i>
+              </div>  
+              <div class="logo">  
+                <i class="devicon-html5-plain-wordmark devicon"></i> 
+              </div>  
+              <div class="logo">  
+                <i class="devicon-react-plain-wordmark devicon"></i>
+              </div>  
+              <div class="logo">  
+                <i class="devicon-nodejs-plain-wordmark devicon"></i>
+              </div>  
+              <div class="logo">  
+                <i class="devicon-mysql-plain-wordmark devicon"></i>
+              </div>  
+              <div class="logo">  
+                <i class="devicon-mongodb-plain-wordmark devicon"></i>
+              </div>  
+              <div class="logo">  
+                <i class="devicon-express-original-wordmark devicon"></i>
+              </div>  
+              <div class="logo">  
+                <i class="devicon-heroku-original-wordmark devicon"></i>
+              </div>
+          </div>
+          <div class="row mx-0 justify-content-center">
+            <div class="paragraphWrap2">
+              <p><strong>WorkPlace Strength</strong></p>
+              <ul class="p1" id="workplace-strength">
+                <li>Great Teamwork Skill</li>
+                <li>Collaboration</li>
+                <li>Fast Learner</li>
+                <li>Problem-solving by analyzing</li>
+                <li>Excellent time management</li>
+                <li>Mind control under pressure</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="arrowDown">
         <a href="#portfolio"><i class="fas fa-chevron-down fa-2x"></i></a>
@@ -183,7 +227,7 @@
     <section class="accordion" id="portfolio">
       <div class="row justify-content-around mx-0">
         <!-- first portfolio box -->
-        <div class="card col-10 col-lg-2  align-self-center" id="headingOne">
+        <div class="card col-10 col-lg-2 align-self-center" id="headingOne">
           <div
             class="btn cardHeader"
             data-toggle="collapse"
@@ -229,7 +273,7 @@
             <a href="https://songhee95.github.io/First_Timer/">Go to Website</a>
           </div>
         </div>
-      <!-- third portpolio box -->
+        <!-- third portpolio box -->
         <div class="card col-10 col-lg-2 align-self-center" id="headingThree">
           <div
             class="btn cardHeader"
@@ -252,11 +296,13 @@
             <p>
               <strong>Increase work ability with daily-work-scheduler</strong>
             </p>
-            <a href="https://songhee95.github.io/Daily-planner/">Go to Website</a>
+            <a href="https://songhee95.github.io/Daily-planner/"
+              >Go to Website</a
+            >
           </div>
         </div>
       </div>
-        <!-- fourth portpolio box -->
+      <!-- fourth portpolio box -->
       <div class="row justify-content-around mx-0">
         <div class="card col-10 col-lg-2 align-self-center" id="headingFour">
           <div
