@@ -19,14 +19,19 @@ i{
 li{
     list-style: none;
 }
+.list-group-item{
+    text-decoration: none;
+    color:#45A29E;
+}
 .navbar-toggler,.navbar-toggler:active, .navbar-toggler:focus{
     outline: none;
     border: none;
 }
-.right-menu-icon{
+.right-menu-icon a{
+    text-decoration: none;
     color: #FFFFFF80;
 }
-.right-menu-icon:hover{
+.right-menu-icon a:hover{
     color: white;
 }
 .right-menu-icon i{
@@ -69,10 +74,6 @@ li{
     border: none;
     background-color:#0B0C10;
     font-size: 1.5rem;
-}
-#dditem1,#dditem2, #dditem3, #dditem4, #dditem5, #dditem6{
-    text-decoration: none;
-    color:#45A29E;
 }
 #dditem1{
     font-weight: bolder;
