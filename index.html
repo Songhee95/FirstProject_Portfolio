@@ -39,7 +39,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
@@ -63,17 +66,13 @@
         <div class="bg-dark">
           <a class="list-group-item" id="dditem1" href="#home">Home</a>
           <a class="list-group-item" href="#about">About</a>
-          <a class="list-group-item" href="#portfolio"
-            >Portfolio</a
-          >
+          <a class="list-group-item" href="#portfolio">Portfolio</a>
           <a
             class="list-group-item"
-            href="https://docs.google.com/document/d/1W_gLfnKDOSz88rMSLfaEI9moHscL3lNPNdJuZxS6xYI/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1uYJU9LUAHf66WjpPQYp4vzJ3rXbDQzOkP5-hfl4SAPM/edit?usp=sharing"
             >Resume</a
           >
-          <a
-            class="list-group-item"
-            href="https://github.com/Songhee95"
+          <a class="list-group-item" href="https://github.com/Songhee95"
             >Github</a
           >
           <a
@@ -123,7 +122,11 @@
       </div>
       <div class="right-menu-icon">
         <i class="far fa-file" aria-hidden="true"></i>
-        <a href="https://docs.google.com/document/d/1W_gLfnKDOSz88rMSLfaEI9moHscL3lNPNdJuZxS6xYI/edit?usp=sharing" target="_blank">Resume</a>
+        <a
+          href="https://docs.google.com/document/d/1uYJU9LUAHf66WjpPQYp4vzJ3rXbDQzOkP5-hfl4SAPM/edit?usp=sharing"
+          target="_blank"
+          >Resume</a
+        >
       </div>
       <div class="right-menu-icon">
         <i class="fa fa-paper-plane" aria-hidden="true"></i>
@@ -133,13 +136,16 @@
     <!-- Home section -->
     <section id="home">
       <div class="row mx-0 justify-content-around">
-        <div class="col-lg-4" id="mypic">
-          <p>PICTURE</p>
-          <!-- <img src="./assets/images/songhee.jpg" alt="my picture"> -->
+        <div class="col-10 col-sm-6 col-md-4 col-lg-3" id="mypic">
+          <img
+            src="./assets/images/songhee.jpg"
+            alt="my picture"
+            id="myImage"
+          />
         </div>
-        <div class="col-lg-8" id="homeParagraph">
+        <div class="col-10 col-sm-5 col-md-6 col-lg-5" id="homeParagraph">
           <div class="vl"></div>
-          <div class="row mx-0">
+          <div class="row mx-0" id="home-paragraph-intro">
             <div class="col-12">&lt;Hello my="name-is"&gt;</div>
             <div class="col-12" id="name">Songhee Yim</div>
             <div class="col-12" id="fullStack">FULL STACK DEVELOPER</div>
@@ -163,17 +169,18 @@
           <p class="p1">
             Full Stack Developer with Engineering background to think more
             logically and process more efficiently in creating code. Recently
-            earned a certificate in Full Stack Development from Georgia institute
-            of Technology. I have honed my skills in HTML5, CSS, Bootstrap,
-            jQuery, JavaScript, React.js, and responsive Web design to develop
-            clear and impactive client-side applications and MySQL, MoingoDB, Node.js and Express.js to
-            develop effective server-side applications. Known as an outstanding
-            problem solver with analyzing skills and able to work with a team
-            while solving problems in high-stress environments. My motivation is
-            to make great collaboration by giving respect and support to my
-            teammates and this motivation leads our project and team to success.
-            Looking to bring my passion and technical skills to the company to
-            grow and become a valuable asset.
+            earned a certificate in Full Stack Development from Georgia
+            institute of Technology. I have honed my skills in HTML5, CSS,
+            Bootstrap, jQuery, JavaScript, React.js, and responsive Web design
+            to develop clear and impactive client-side applications and MySQL,
+            MoingoDB, Node.js and Express.js to develop effective server-side
+            applications. Known as an outstanding problem solver with analyzing
+            skills and able to work with a team while solving problems in
+            high-stress environments. My motivation is to make great
+            collaboration by giving respect and support to my teammates and this
+            motivation leads our project and team to success. Looking to bring
+            my passion and technical skills to the company to grow and become a
+            valuable asset.
           </p>
         </div>
         <div id="skillSet" class="col-lg-7">
@@ -181,48 +188,47 @@
             <p><strong>SKILL SET</strong></p>
           </div>
           <div class="row mx-0 justify-content-center">
-              <div class="logo">
-                <i class="devicon-bootstrap-plain-wordmark devicon"></i>
-              </div>
-              <div class="logo">
-                <i class="devicon-jquery-plain-wordmark devicon"></i>
-              </div>  
-              <div class="logo">
-                <i class="devicon-javascript-plain devicon"></i>
-              </div>  
-              <div class="logo">  
-                <i class="devicon-html5-plain-wordmark devicon"></i> 
-              </div>  
-              <div class="logo">  
-                <i class="devicon-react-plain-wordmark devicon"></i>
-              </div>  
-              <div class="logo">  
-                <i class="devicon-nodejs-plain-wordmark devicon"></i>
-              </div>  
-              <div class="logo">  
-                <i class="devicon-mysql-plain-wordmark devicon"></i>
-              </div>  
-              <div class="logo">  
-                <i class="devicon-mongodb-plain-wordmark devicon"></i>
-              </div>  
-              <div class="logo">  
-                <i class="devicon-express-original-wordmark devicon"></i>
-              </div>  
-              <div class="logo">  
-                <i class="devicon-heroku-original-wordmark devicon"></i>
-              </div>
+            <div class="logo">
+              <i class="devicon-bootstrap-plain-wordmark devicon"></i>
+            </div>
+            <div class="logo">
+              <i class="devicon-jquery-plain-wordmark devicon"></i>
+            </div>
+            <div class="logo">
+              <i class="devicon-javascript-plain devicon"></i>
+            </div>
+            <div class="logo">
+              <i class="devicon-html5-plain-wordmark devicon"></i>
+            </div>
+            <div class="logo">
+              <i class="devicon-react-plain-wordmark devicon"></i>
+            </div>
+            <div class="logo">
+              <i class="devicon-nodejs-plain-wordmark devicon"></i>
+            </div>
+            <div class="logo">
+              <i class="devicon-mysql-plain-wordmark devicon"></i>
+            </div>
+            <div class="logo">
+              <i class="devicon-mongodb-plain-wordmark devicon"></i>
+            </div>
+            <div class="logo">
+              <i class="devicon-express-original-wordmark devicon"></i>
+            </div>
+            <div class="logo">
+              <i class="devicon-heroku-original-wordmark devicon"></i>
+            </div>
           </div>
           <div class="row mx-0 justify-content-center">
             <div class="paragraphWrap2">
               <p><strong>WorkPlace Strength</strong></p>
-              <ul class="p1" id="workplace-strength">
-                <li>Great Teamwork Skill</li>
-                <li>Collaboration</li>
-                <li>Fast Learner</li>
-                <li>Problem-solving by analyzing</li>
-                <li>Excellent time management</li>
-                <li>Mind control under pressure</li>
-              </ul>
+              <div class="p1" id="workplace-strength">
+                <strong>Great Teamwork Skill</strong> |
+                <strong>Collaboration</strong> | <strong>Fast Learner</strong> |
+                <strong>Problem-Solving by Analyzing</strong> |
+                <strong>Excellent Time Management</strong> |
+                <strong>Mind Control Under Pressure</strong>
+              </div>
             </div>
           </div>
         </div>
