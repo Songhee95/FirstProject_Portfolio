@@ -46,7 +46,7 @@ i{
 .p1{
     text-align: justify;
     padding: 0 20px;
-    font-size:1rem;
+    font-size:1.2rem;
     width: 100%;
     color: #45A29E;
 }
@@ -89,18 +89,25 @@ i{
     color: #66FCF1;
 }
 #name{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: rgb(218, 214, 214);
     font-weight: bolder;
 }
+#mypic{
+    text-align: right;
+}
 #mypic img{
-    width: 250px;
-    padding-top: 10px;
+    max-width: 500px;
+    width: 100%;
+    padding: 10px 10%;
 }
 #homeParagraph{
-    padding-top: 10px;
+    padding: 10px 10%;
+    font-size: 1.2rem;
 }
 #fullStack{
-    font-size: 1.3rem;
+    color: rgb(218, 214, 214);
+    font-size: 1.7rem;
     font-weight: 500;
 }
 #about{
@@ -158,29 +165,7 @@ i{
     bottom: 5px;
     right: 5px;
 }
-@media screen and (min-width:768px) and (max-width:992px){
-    #mypic, #homeParagraph{
-        margin: 0;
-    }
-    #home{
-        font-size: 1.5rem;
-    }
-    #mypic img{
-        width: 300px;
-        padding-top: 50px;
-    }
-    #homeParagraph{
-        padding-top: 50px;
-    }
-    #name,#fullStack{
-        font-size: 2rem;
-        color: white;
-    }
-    .arrowDown{
-        padding: 100px 0 50px 0;
-    }
-}
-@media screen and (min-width:992px){
+@media screen and (min-width:992px) and (max-width: 1200px){
     .homeBackground{
         width: 100%;
         height: 100%;
@@ -197,6 +182,7 @@ i{
     }
     .arrowDown{
         clear: both;
+        padding: 100px 0 50px 0;
     }
     #nav1{
         visibility: hidden;
@@ -204,31 +190,82 @@ i{
     #nav2{
         visibility: visible;
     }
-    #mypic, #homeParagraph{
-        margin: 0;
-    }
-    #mypic img{
-        width: 350px;
-        padding-top: 50px;
-    }
     #homeParagraph{
-        padding-top: 50px;
+        padding: 10px 5%;
+        font-size: 1.8rem;
     }
     #home{
         position: relative;
         z-index: 2;
         padding: 6% 3%;
-        font-size: 1.8rem;
     }
-    #home-paragraph-intro{
-        padding: 4%;
+    #name{
+        font-size: 3.3rem;
+        color: white;
     }
-    #name,#fullStack{
+    #fullStack{
         font-size: 2.6rem;
         color: white;
     }
+    #about{
+        padding-top: 8%;
+    }
+    #portfolio{
+        clear: both;
+        padding: 0;
+    }
+    #topBtn{
+        left: auto;
+        right: 5px;
+    }
+    #hireMe{
+       display: none;
+    }
+}
+@media screen and (min-width:1201px){
+    .homeBackground{
+        width: 100%;
+        height: 100%;
+        background-image: url(./images/background2.jpg);
+        opacity: 0.3;
+        background-size:cover;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index:-1;
+    }
+    .paragraphWrap1, #skillSet{
+        padding:50px 0;
+    }
     .arrowDown{
         padding: 100px 0 50px 0;
+        clear: both;
+    }
+    #nav1{
+        visibility: hidden;
+    }
+    #nav2{
+        visibility: visible;
+    }
+    #homeParagraph{
+        padding: 10px 5%;
+        font-size: 2.2rem;
+    }
+    #home{
+        position: relative;
+        z-index: 2;
+        padding: 6% 3%;
+    }
+    #name{
+        font-size: 4.2rem;
+        color: white;
+    }
+    #fullStack{
+        font-size: 3rem;
+        color: white;
+    }
+    #about{
+        padding-top:8%;
     }
     #portfolio{
         clear: both;

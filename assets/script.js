@@ -11,7 +11,6 @@ $(document).ready(function(){
     if(w>992){
         cardNum.removeAttr('data-toggle');
         cardBody.removeClass('collapse');
-        myPic.attr('src', "./assets/images/songhee2.jpg")
     }else{
         cardNum.attr('data-toggle');
         cardBody.addClass('collapse');
