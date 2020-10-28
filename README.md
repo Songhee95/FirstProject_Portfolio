@@ -1,8 +1,7 @@
 # FirstProject_Portfolio
 
 ## Description
-The main purpose of this project is to make WebPage using bootstrap. Most of html element has bootstrap grid layout and functions. There are total 3 pages in this project and each has individual style sheet. Short introduction about me described in ABOUT ME page, and click the sticky footer button on *mobile screen* to contact me if you want to. Or you can leave contact information in the CONTACT page. PORTFOLIO page pictures will be updated later. 
->The images in the PORTFOLIO page are *NON-COPYRIGHT* images.    
+The portfolio page describes me as a full stack web developer. Remarkable projects will be updated to the portfolio section. In portfolio section, those projects are organized with short introductions and links. If you enjoyed my work, don't forget to follow my github!  
 >CREATED BY @Songhee95 feel free to contact me!
 
 ## Table of Contents
@@ -21,15 +20,9 @@ The main purpose of this project is to make WebPage using bootstrap. Most of htm
 
 
 ## Usage
-![GitHub Logo](./assets/images/readme_aboutme.JPG)
-![GitHub Logo](./assets/images/readme_contact.JPG)
-![GitHub Logo](./assets/images/readme_portfolio1.JPG)
-![GitHub Logo](./assets/images/readme_portfolio2.JPG)
-
-
-## Remarkable
-*Nav bar was drawn with <svg> element to customize the nav button style which lines have different colors.
-
+![GitHub Logo](./assets/images/readme_home.PNG)
+![GitHub Logo](./assets/images/readme_aboutme.PNG)
+![GitHub Logo](./assets/images/readme_portfolio.PNG)
 
 ## License
 *MIT License*
