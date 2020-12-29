@@ -126,20 +126,17 @@ i{
     background-color:#90b6b8;
     padding:10%;
 }
-#headingOne, #collapseOne a, #headingFour, #collapseFour a{
+.card{
     background-color: #314455;
     color: seashell;
     margin: 50px auto;
+    text-align: center;
 }
-#headingTwo, #collapseTwo a, #headingSix, #headingSix a{
-    background-color: #97AABD;
-    color: black;
-    margin: 50px auto;
-}
-#headingThree, #collapseThree a, #headingFive, #headingFive a{
-    background-color:#644E5B;
+.project-links{
+    background-color: #314455;
     color: seashell;
     margin: 50px auto;
+    text-align: center;
 }
 #copyright-section div{
     width: 100%;
